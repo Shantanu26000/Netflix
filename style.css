@@ -1,0 +1,486 @@
+.container{
+    display: grid;
+    grid-template-rows:110vh 80vh 80vh 80vh 80vh 110vh 80vh;
+    row-gap: 8px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/8728e059-7686-4d2d-a67a-84872bd71025/e90516bd-6925-4341-a6cf-0b9f3d0c140a/IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_large.jpg");
+    background-position: bottom right;
+
+}
+
+.box2{
+    background-color: black;
+}
+.box3{
+    background-color: black;
+}
+.box4{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50vw 49vw;
+}
+.box5{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50vw 49vw;
+}
+.box{
+    background-color: rgb(0, 0, 0);
+}
+.box7{
+    background-color: black; 
+}
+.box6{
+    background-color: black; 
+}
+body{
+    background-color: rgb(0 0 0 / 40%);
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    
+}
+.netflix{
+    position: relative;
+    left: 180px;
+}
+#lan{
+    width: 130px;
+    font-size: 21px;
+    background-color: black;
+    color: rgb(244, 244, 244);
+    position: relative;
+    top: -36px;
+    right: -827px;
+    transition: all 3s ease-in-out 2ms;
+    border-radius: 5px;
+    height: 34px;
+    text-align: center;
+}
+.signin{
+    position: relative;
+    top: -36px;
+    right: -839px;
+    background-color: red;
+    width: 90px;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 34px;
+    text-align: center;
+}
+.sign{
+    text-decoration: none;
+color: white;
+
+}
+a:hover{
+    color: rgb(236, 224, 224)
+}
+.main{
+    text-align: center;
+    position: relative;
+    top: 170px;
+    font-size: 56px;
+    color: white;
+    }
+    .mid{
+        text-align: center;
+    position: relative;
+    top: 184px;
+    font-size: 23px;
+    color: white;
+    }
+    .middle{
+        text-align: center;
+    position: relative;
+    top: 194px;
+    font-size: 23px;
+    color: white;
+    }
+       #email{
+        position: relative;
+        top: 210px;
+        right: -400px;
+        width: 430px;
+        height: 48px;
+        font-size: 20px;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+       }
+      .getstarted{
+        background-color: red;
+        position: relative;
+        top: 210px;
+        right: -410px;
+        color: white;
+        width: 240px;
+        height: 48px;
+        font-size: 23px;
+        border-radius: 5px;
+      }
+      .icon{
+        position: relative;
+        top: 2px;
+        right: -3px;
+      }
+      .second{
+        color: white;
+        font-size: 56px;
+     
+      }
+    .se{
+        color: white;
+        font-size: 24px;
+height: 56px;
+    }
+    .sec{
+        color: white;
+        font-size: 24px;
+    } 
+    .grid{
+       display: grid;
+       grid-template-rows: 86px 29px 36px;
+     margin-top: 190px;
+     margin-left: 150px;
+       width: 548px;
+    }  
+    .tv{
+      display: grid;
+      margin-top: -380px;
+      margin-left: 800px;
+
+    }
+    .vid{
+        display: grid;
+        margin-top: -200px;
+        margin-left: 890px;
+    }
+    .mob{
+        display: grid;
+        margin-top: 50px;
+        margin-left: 236px;
+    }
+    .strange{
+        display: grid;
+        margin-top: -130px;
+        margin-left: 236px;
+  }
+  .curve{
+    border-radius: 10px;
+    border: 1px solid white;
+    display:grid;
+   height: 110px;
+    width: 317px;
+    margin-top: -135px;
+    margin-left: 367px;
+    position: absolute;
+    background-color: black;
+}
+.co{
+    height: 520px;
+   
+    position: relative;
+    width: 900px;
+}
+.things{
+    display: grid;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+.tt{
+    color: white;
+    margin-top: -74px;
+    margin-left: 86px;
+    font-weight:bold;
+    font-size: 18px;
+}
+.tb{
+    color: blue;
+    margin-top: -54px;
+    margin-left: 86px;
+}
+.ico{
+margin-left: 250px;
+margin-top: -75px;
+}
+.cony{
+    color: white;
+    margin-top: -397px;
+    margin-left:825px;
+    font-size:53px;
+}
+.conu{
+    color: white;
+    margin-top: 1px;
+    margin-left:825px;
+    font-size:53px;
+}
+.rest{
+    color: white;
+    margin-left:825px;
+    margin-top: 10px;
+    font-size: 25px;
+font-weight:bold;
+}
+.rested{
+    color: white;
+    margin-left:825px;
+    font-size: 25px;
+    font-weight:bold;
+}
+.fou{
+color: white;
+
+}
+
+.watch{
+    font-size: 56px;
+margin-top: 236px;
+margin-left: 206px;
+}
+.unlimit{
+    margin-top: 16px;
+margin-left: 216px;
+font-size: 26px;
+}
+.un{
+    margin-top: 1px;
+    margin-left: 216px;
+    font-size: 26px;
+}
+.lassi{
+    margin-top: 120px;
+margin-left: 190px;
+}
+.las{
+    margin-top: -254px;
+    margin-left: 70px;
+}
+.child{
+    margin-top: 45px;
+    margin-left: 196px;
+}
+.profile{
+    color: white;
+     font-size: 51px; 
+    margin-top: 178px;
+    margin-left: 45px;
+    font-weight: 900;
+}
+.adv{
+    color: white;
+    margin-top: 19px;
+    margin-left: 45px;
+    font-size: 27px;
+}
+.children{
+    color: white;
+    margin-top: -7px;
+    margin-left: 45px;
+    font-size: 27px;
+}
+.mem{
+    color: white;
+    margin-top: -7px;
+    margin-left: 45px;
+    font-size: 27px;
+}
+.head{
+    color: white;
+    font-size: 56px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 40px;
+}
+.grind{
+    display: grid;
+    grid-template-rows: repeat(6,65px);
+    row-gap: 6px;
+    margin-top: 28px;
+    align-content: center;
+    justify-content: center;
+}
+.grinder{
+    background-color: rgba(100, 99, 99, 0.4);
+    width: 78vw;
+   color: white; 
+   font-size: 26px;
+   padding: 8px;
+   padding-left: 26px;
+ 
+
+}
+.ballon{
+   display: grid;
+   grid-template-columns: 60vw 20vw;
+
+}
+.ballons{
+    display: grid;
+    grid-template-columns: 5vw 5vw;
+ 
+ }
+
+.plus{
+text-align: right;
+padding-left: 26px;
+padding: 8px;
+}
+.pp{
+    text-align: right;
+    padding-left: 26px;
+    padding: 8px;  
+}
+
+.shan{
+    color: white;
+    text-align: center;
+    margin-top: 67px;
+    font-size: 22px;
+}
+.gstarted{
+    color: white;
+    width: 220px;
+    height: 58px;
+    font-size: 23px;
+    border-radius: 5px;
+    background-color: red;
+   position: relative;
+   top: 20px;
+   left: 460px;
+}
+#emai{
+    width: 400px;
+    height: 58px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    position: relative;
+    top: 20px;
+    left: 450px;
+    border-radius: 5px;
+}
+.phonr{
+  color: white;
+  position: relative;
+  top:96px;
+  left:187px;
+}
+.phoneno{
+    color: white;
+    position: relative;
+    top:96px;
+    left:187px;
+    text-decoration: underline;
+text-decoration-color: white;
+}
+
+.last{
+    display: grid;
+grid-template-columns: repeat(4,285px);
+    grid-template-rows: repeat(7,55px);
+   row-gap: 6px;
+   column-gap: 6px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.lastkeunder{
+ color: white;
+ align-content: center;
+ align-self: center;
+ 
+}
+.bheem{
+    color: white;
+}
+.boo{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.ft{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.hc{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.ac{
+    grid-row: 2/3;
+    grid-column: 3/4;
+
+}
+.mc{
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+.ir{
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+.jb{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+.wtw{
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+.tou{
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+.pri{
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+.cpoi{
+    grid-row: 4/5;
+    grid-column: 2/3;
+}
+.cir{
+    grid-row: 4/5;
+    grid-column: 3/4;
+}
+.cub{
+    grid-row: 4/5;
+    grid-column: 4/5;
+}
+.st{
+    grid-row: 5/6;
+    grid-column: 1/2;
+}
+.lnm{
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+.oon{
+    grid-row: 5/6;
+    grid-column: 3/4;
+}
+.eh{
+    grid-row: 6/7;
+    grid-column: 1/2;
+}
+.nri{
+    grid-row: 7/8;
+    grid-column: 1/2;
+}
+#billaiya{
+    background-color: rgb(45, 44, 44);
+    color: white;
+    height: 38px;
+    width: 124px;
+    border-radius: 6px;
+    border: 2px solid white;
+    padding: 4px;
+    text-align: center;
+    font-size: 16px;
+}
